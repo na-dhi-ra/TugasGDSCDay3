@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class= "main">
+        <div class="header" style="margin:50px">
+        <h1, class="h1">movie lists</h1>
+        </div>
+
+        <div class="row1">
+            <div1 id="div1">
+                <div class="gonegirl">
+                    <img class="gonegirl_img" src="https://raw.githubusercontent.com/na-dhi-ra/TugasGDSCDay3/main/gonegirl.jpg" alt="GoneGirl">
+                    <div class="gonegirl_title"> Gone Girl </div>
+                    <div class="gonegirl_year"> 2014 </div>
+                    <div> <a href="#" class="gonegirl_button" id="gonegirl_button"> view </a></div>
+                </div>
+            </div1>
+
+            <div2 id="div2">
+                <div class="legallyblonde">
+                    <img class="legallyblonde_img" src="https://raw.githubusercontent.com/na-dhi-ra/TugasGDSCDay3/main/legallyblonde.jpg" alt="LegallyBlonde">
+                    <div class="legallyblonde_title"> Legally Blonde</div>
+                    <div class="legallyblonde_year"> 2001 </div>
+                    <div> <a href="#" class="legallyblonde_button" id="legallyblonde_button"> view </a></div>
+                </div>
+            </div2>
+        </div>
+
+        <div class="row2">
+            <div4 id="div4">
+                <div class="perfectblue">
+                    <img class="perfectblue_img" src="https://raw.githubusercontent.com/na-dhi-ra/TugasGDSCDay3/main/perfectblue.jpg" alt="PerfectBlue">
+                    <div class="perfectblue_title"> Perfect Blue</div>
+                    <div class="perfectblue_year"> 1997 </div>
+                    <div> <a href="#" class="perfectblue_button" id="perfectblue_button"> view </a></div>
+                </div>
+            </div4>
+
+            <div5 id="div5">
+                <div class="spiritedaway">
+                    <img class="spiritedaway_img" src="https://raw.githubusercontent.com/na-dhi-ra/TugasGDSCDay3/main/spiritedaway.jpg" alt="SpiritedAway">
+                    <div class="spiritedaway_title"> Spirited Away</div>
+                    <div class="spiritedaway_year"> 2001 </div>
+                    <div> <a href= "#" class="spiritedaway_button" id="spiritedaway_button"> view </a></div>
+                </div>
+            </div5>
+        </div>
+        <p class="nad">made by nad.</p>
+    </div>
+
+    <!-- Membuat Modal Pop-Up-->
+    <div class="gonegirl_popup"> 
+        <div class="gonegirl_popup_content">
+            <div class="gonegirl_popup_content_header">Gone Girl (2014)</div>
+            <div class="gonegirl_popup_content_desc">Nick Dunne discovers that the entire media focus has shifted on him when his wife, Amy Dunne, mysteriously disappears on the day of their fifth wedding anniversary.</div>
+            <button class="gonegirl_popup_content_closebutton"> &times; </button>
+        </div>
+    </div>
+
+    <div class="legallyblonde_popup"> 
+        <div class="legallyblonde_popup_content">
+            <div class="legallyblonde_popup_content_header">Legally Blonde (2001)</div>
+            <div class="legallyblonde_popup_content_desc">Elle's boyfriend breaks up with her for a smarter girl as he plans to become a politician and joins Harvard Law School. Elle gets enrolled in the same school in an effort to teach him a lesson.</div>
+            <button class="legallyblonde_popup_content_closebutton"> &times; </button>
+        </div>
+    </div>
+
+    <div class="perfectblue_popup"> 
+        <div class="perfectblue_popup_content">
+            <div class="perfectblue_popup_content_header">Perfect Blue (1997)</div>
+            <div class="perfectblue_popup_content_desc">A singer quits her band to become an actress and sheds her "good girl" image to further her career.</div>
+            <button class="perfectblue_popup_content_closebutton"> &times; </button>
+        </div>
+    </div>
+
+    <div class="spiritedaway_popup"> 
+        <div class="spiritedaway_popup_content">
+            <div class="spiritedaway_popup_content_header">Spirited Away (2001)</div>
+            <div class="spiritedaway_popup_content_desc">During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.</div>
+            <button class="spiritedaway_popup_content_closebutton"> &times; </button>
+        </div>
+    </div>
+
+
+    <!-- Membuat Script Pop-Up-->
+    <script> 
+    document.getElementById("gonegirl_button").addEventListener("click", function(){
+        document.querySelector(".gonegirl_popup").style.display = "flex";
+    })
+
+    document.querySelector(".gonegirl_popup_content_closebutton").addEventListener("click", function(){
+        document.querySelector(".gonegirl_popup").style.display = "none";
+    })
+    </script>
+
+    <script>
+        document.getElementById("legallyblonde_button").addEventListener("click", function(){
+        document.querySelector(".legallyblonde_popup").style.display = "flex";
+    })
+
+    document.querySelector(".legallyblonde_popup_content_closebutton").addEventListener("click", function(){
+        document.querySelector(".legallyblonde_popup").style.display = "none";
+    })
+    </script>
+
+    <script>
+    document.getElementById("perfectblue_button").addEventListener("click", function(){
+        document.querySelector(".perfectblue_popup").style.display = "flex";
+    })
+
+    document.querySelector(".perfectblue_popup_content_closebutton").addEventListener("click", function(){
+        document.querySelector(".perfectblue_popup").style.display = "none";
+    })
+    </script>
+
+    <script>
+    document.getElementById("spiritedaway_button").addEventListener("click", function(){
+        document.querySelector(".spiritedaway_popup").style.display = "flex";
+    })
+
+    document.querySelector(".spiritedaway_popup_content_closebutton").addEventListener("click", function(){
+        document.querySelector(".spiritedaway_popup").style.display = "none";
+    })   
+    </script>
+
+</body>
+</html>

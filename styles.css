@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    overflow:auto;
+    background-color: #FFDB58
+}
+
+.header{
+    text-align: center;
+    margin-top: 50px
+}
+
+.h1{
+    font-size:75px;
+    font-family:'Poppins';
+    text-transform: Uppercase;
+    font-weight: bolder;
+    transition: 0.4s;
+    cursor: default
+}
+
+.h1:hover{
+    color: #fff
+}
+
+#div1{
+    width:50%;
+    float: left;
+}
+
+#div2{
+    width:50%;
+    float:right
+}
+
+.row1{
+    height:50%;
+    margin-bottom:20px
+}
+.gonegirl{
+    margin-left:200px
+}
+.gonegirl_img{
+    height: 500px;
+    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.2)
+}
+
+.gonegirl_title{
+    font-size: 35px;
+    font-family: 'Poppins';
+    font-weight: bolder
+}
+
+.gonegirl_year{
+    font-size: 30px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-family: 'Adobe Gothic Std';
+}
+.gonegirl_button{
+    padding: 7.7px 152px;
+    background: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 13px;
+    font-family: 'Poppins';
+    transition: 0.4s;
+    cursor: pointer
+}
+
+.gonegirl_button:hover{
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.gonegirl_popup{
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.gonegirl_popup_content{
+    height: 250px;
+    width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.gonegirl_popup_content_header{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.gonegirl_popup_content_desc{
+    justify-content: center;
+    font-family: 'Poppins';
+}
+
+.gonegirl_popup_content_closebutton{
+    position: absolute;
+    top:7.5px;
+    right: 7.5px;
+    width: 20px;
+    height: 20px;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    font-weight:bolder;
+    cursor: pointer
+}
+
+.legallyblonde{
+    margin-left:100px
+}
+
+.legallyblonde_img{
+    height: 500px;
+    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.2)
+}
+
+.legallyblonde_title{
+    font-size: 35px;
+    font-family: 'Poppins';
+    font-weight: bolder
+}
+
+.legallyblonde_year{
+    font-size: 30px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-family: 'Adobe Gothic Std';
+}
+.legallyblonde_button{
+    padding: 7.7px 152px;
+    background: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 13px;
+    font-family: 'Poppins';
+    transition: 0.4s;
+    cursor: pointer
+}
+
+.legallyblonde_button:hover{
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.legallyblonde_popup{
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.legallyblonde_popup_content{
+    height: 250px;
+    width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.legallyblonde_popup_content_header{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.legallyblonde_popup_content_desc{
+    justify-content: center;
+    font-family: 'Poppins';
+}
+
+.legallyblonde_popup_content_closebutton{
+    position: absolute;
+    top:7.5px;
+    right: 7.5px;
+    width: 20px;
+    height: 20px;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    font-weight:bolder;
+    cursor: pointer
+}
+
+
+.row2{
+    height:50%;
+    margin-top: 450px;
+    margin-bottom: 500px
+}
+
+#div4{
+    width:50%;
+    float:left
+}
+
+#div5{
+    width: 50%;
+    float: right
+}
+
+.perfectblue{
+    margin-left:200px
+}
+
+.perfectblue_img{
+    height: 500px;
+    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.2)
+}
+
+.perfectblue_title{
+    font-size: 35px;
+    font-family: 'Poppins';
+    font-weight: bolder
+}
+
+.perfectblue_year{
+    font-size: 30px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-family: 'Adobe Gothic Std';
+}
+.perfectblue_button{
+    padding: 7.7px 152px;
+    background: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 13px;
+    font-family: 'Poppins';
+    transition: 0.4s;
+    cursor: pointer
+}
+
+.perfectblue_button:hover{
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.perfectblue_popup{
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfectblue_popup_content{
+    height: 250px;
+    width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.perfectblue_popup_content_header{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.perfectblue_popup_content_desc{
+    justify-content: center;
+    font-family: 'Poppins';
+}
+
+.perfectblue_popup_content_closebutton{
+    position: absolute;
+    top:7.5px;
+    right: 7.5px;
+    width: 20px;
+    height: 20px;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    font-weight:bolder;
+    cursor: pointer
+}
+
+
+.spiritedaway{
+    margin-left:100px
+}
+
+.spiritedaway_img{
+    height: 500px;
+    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.2)
+}
+
+.spiritedaway_title{
+    font-size: 35px;
+    font-family: 'Poppins';
+    font-weight: bolder
+}
+
+.spiritedaway_year{
+    font-size: 30px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-family: 'Adobe Gothic Std';
+}
+.spiritedaway_button{
+    padding: 7.7px 152px;
+    background: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 13px;
+    font-family: 'Poppins';
+    transition: 0.4s;
+    cursor: pointer
+}
+
+.spiritedaway_button:hover{
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.spiritedaway_popup{
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.spiritedaway_popup_content{
+    height: 250px;
+    width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.spiritedaway_popup_content_header{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.spiritedaway_popup_content_desc{
+    justify-content: center;
+    font-family: 'Poppins';
+}
+
+.spiritedaway_popup_content_closebutton{
+    position: absolute;
+    top:7.5px;
+    right: 7.5px;
+    width: 20px;
+    height: 20px;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    font-weight:bolder;
+    cursor: pointer
+}
+
+
+.nad{
+    text-align:center;
+    margin-bottom: 20px;
+    margin-top: -75px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    transition: 0.4s
+}
+
+.nad:hover{
+    color: #fff;
+    cursor: default
+}
+
+
